@@ -1,0 +1,20 @@
+
+###POTTER COVE
+```{r, echo = FALSE}
+source("R/proportion.R")
+
+potter <- readFile("Data/potter.csv")
+
+proportion(potter)
+```
+
+###BEAGLE CHANNEL
+```{r, echo = FALSE}
+source("R/proportion.R")
+
+beagle <- readFile("Data/beagle.csv")
+
+proportion(beagle)
+
+```
+
